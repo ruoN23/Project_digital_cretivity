@@ -1,0 +1,28 @@
+/* styles.css */
+
+.artwork-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.shape:hover {
+    transform: scale(1.1);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.square {
+    /* Pas besoin de bord-radius pour le carré */
+}
